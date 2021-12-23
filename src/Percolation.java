@@ -30,6 +30,7 @@ public class Percolation {
             Double mean = calculateMean(sample);
             Double std = calculateStd(sample, mean);
             System.out.printf("Mean: %s, Std: %s\n", mean, std);
+            System.out.printf("Mean in percents: %s, Std in percents: %s\n", mean / game.n / game.n * 100., std / game.n / game.n / game.n / game.n * 100.);
         }
     }
 }

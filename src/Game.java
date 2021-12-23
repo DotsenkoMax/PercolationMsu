@@ -21,6 +21,9 @@ public class Game {
         rank = new int[n * (n + 2)];
         this.n = n;
     }
+    protected int getN(){
+        return n;
+    }
 
     protected Double playGame() {
         fillInitialMatrix(parentMap);
